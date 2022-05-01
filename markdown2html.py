@@ -62,7 +62,7 @@ def li(line, flags):
 def clean_line(line):
     """
     Styling tags with the use of Regular expressions.
-    <b>...<\b><em>...<\em>
+    <b>...</b><em>...</em>
     [[...]] = md5(...)
     ((...)) = ... with no 'C' or 'c' characters.
     """
